@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="#0D7BD3"
+        android:inputType="textPersonName"
+        android:drawableRight="@drawable/ic_arrow_drop_down"
+        android:layout_marginTop="15dp"
+        android:text="Country" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableRight="@drawable/ic_arrow_drop_down"
+        android:layout_marginTop="15dp"
+        android:text="State" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableRight="@drawable/ic_arrow_drop_down"
+        android:layout_marginTop="15dp"
+        android:text="Distrist" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableRight="@drawable/ic_arrow_drop_down"
+        android:layout_marginTop="15dp"
+        android:text="Centre Name" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?selectableItemBackground"
+        android:paddingHorizontal="20dp"
+        android:textColor="#ffff"
+        android:text="Select Centre" />
+</LinearLayout>
